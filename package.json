@@ -1,0 +1,26 @@
+{
+  "name": "schemeless",
+  "version": "0.0.0",
+  "description": "Remove http(s) string from the innerHTML of links on web pages",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeke/schemeless"
+  },
+  "keywords": [
+    "anchor",
+    "links",
+    "pretty",
+    "dom",
+    "browser",
+    "browserify"
+  ],
+  "author": "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeke/schemeless/issues"
+  },
+  "homepage": "https://github.com/zeke/schemeless",
+  "dependencies": {
+  }
+}
