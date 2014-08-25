@@ -25,3 +25,10 @@ npm install schemeless --save
 var schemeless = require("schemeless")
 schemeless("https://example.com")
 ```
+
+## Test
+
+```sh
+npm install
+npm test
+```
