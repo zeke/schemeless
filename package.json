@@ -1,19 +1,17 @@
 {
   "name": "schemeless",
-  "version": "0.0.0",
-  "description": "Remove http(s) string from the innerHTML of links on web pages",
+  "version": "1.0.0",
+  "description": "Remove the parts of URLs that humans don't really need to see",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/zeke/schemeless"
   },
   "keywords": [
+    "url",
+    "humanize",
     "anchor",
-    "links",
-    "pretty",
-    "dom",
-    "browser",
-    "browserify"
+    "links"
   ],
   "author": "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com/)",
   "license": "MIT",
@@ -21,6 +19,10 @@
     "url": "https://github.com/zeke/schemeless/issues"
   },
   "homepage": "https://github.com/zeke/schemeless",
-  "dependencies": {
+  "devDependencies": {
+    "tap": "^0.4.12"
+  },
+  "scripts": {
+    "test": "tap test"
   }
 }
