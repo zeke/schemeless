@@ -1,6 +1,6 @@
 {
   "name": "schemeless",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Remove the parts of URLs that humans don't really need to see",
   "main": "index.js",
   "repository": {
