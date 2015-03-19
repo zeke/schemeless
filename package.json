@@ -25,5 +25,6 @@
   "scripts": {
     "test": "tap test"
   },
-  "icon": "icon.svg"
+  "icon": "icon.svg",
+  "cousins": ["humanize-url"]
 }
