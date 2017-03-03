@@ -26,6 +26,10 @@ var schemeless = require("schemeless")
 schemeless("https://example.com")
 ```
 
+## See Also
+
+- [AnchorMe](http://alexcorvi.github.io/anchorme.js/) detects URLs and email address in text and converts them to clickable HTML anchor links.
+
 ## Test
 
 ```sh
