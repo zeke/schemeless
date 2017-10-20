@@ -3,27 +3,23 @@
   "version": "1.2.0",
   "description": "Remove the parts of URLs that humans don't really need to see",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/zeke/schemeless"
-  },
+  "repository": "https://github.com/zeke/schemeless",
   "keywords": [
     "url",
     "humanize",
     "anchor",
+    "link",
     "links"
   ],
   "author": "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com/)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/zeke/schemeless/issues"
-  },
-  "homepage": "https://github.com/zeke/schemeless",
   "devDependencies": {
+    "standard": "^10.0.3",
+    "standard-markdown": "^4.0.2",
     "tap": "^0.4.12"
   },
   "scripts": {
-    "test": "tap test"
+    "test": "tap test && standard --fix & standard-markdown"
   },
   "icon": "icon.svg",
   "cousins": [

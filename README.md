@@ -22,8 +22,17 @@ npm install schemeless --save
 ## Usage
 
 ```js
-var schemeless = require("schemeless")
-schemeless("https://example.com")
+var schemeless = require('schemeless')
+schemeless('https://example.com')
+// => example.com
+```
+
+Remove the scheme from text content of all links in a webpage:
+
+```js
+document.querySelectorAll('a[href^=http]').forEach(function (a) {
+  a.textContent = schemeless(a.textContent)
+})
 ```
 
 ## See Also
